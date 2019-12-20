@@ -1,0 +1,95 @@
+body {
+  margin: 20px 40px;
+  background: #F7FBFF;
+}
+
+header {
+  margin: 20px 0;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header a {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.App {
+  text-align: center;
+}
+
+.filter-container {
+  margin: 20px 0;
+}
+
+.filter-container .MuiFormGroup-root {
+  flex-direction: row;
+}
+
+.job-post {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.job-post:hover {
+  cursor: pointer;
+  color: #888;
+}
+
+.logo-container {
+  width: 10%;
+  margin: 0 10px;
+}
+.company-logo {
+  height: 75%;
+  width: 75%;
+  float: left;
+}
+
+.detail-logo {
+  height: 30px;
+  float: right;
+}
+
+.title-container {
+  width: 55%;
+  padding: 0 10px;
+}
+
+img.country-icon {
+  width: 24px;
+  float: left;
+  margin-right: 5px;
+}
+
+.tags-container {
+  display: flex;
+}
+
+.tag {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: .75em;
+  font-weight: bold;
+  background: #EDEDED;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.date-container {
+  width: 15%;
+  text-align: center;
+}
+
+.postJobBtn {
+  margin-left: 20px;
+}
